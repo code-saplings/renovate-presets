@@ -5,5 +5,8 @@
   ],
   "constraints": {
     "node": "lts"
-  }
+  },
+  "schedule": [
+    "every 3 months on the first weekend of the month"
+  ]
 }
