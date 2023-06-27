@@ -7,6 +7,6 @@
     "node": "lts"
   },
   "schedule": [
-    "every 3 months on the first day of the month"
+    "every 3 months"
   ]
 }
