@@ -1,12 +1,10 @@
 {
   "extends": [
     "config:base",
-    ":automergeMinor"
+    ":automergeMinor",
+    "schedule:monthly"
   ],
   "constraints": {
     "node": "lts"
-  },
-  "schedule": [
-    "every month"
-  ]
+  }
 }
