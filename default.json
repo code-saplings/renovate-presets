@@ -2,9 +2,9 @@
   "extends": [
     "config:base",
     ":automergeMinor",
-    "docker:pinDigests",
-    "schedule:monthly"
+    "docker:pinDigests"
   ],
+  "prConcurrentLimit": 1,
   "constraints": {
     "node": "lts"
   }
